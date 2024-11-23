@@ -120,10 +120,11 @@ Serial.println("Method: " + String(server.method()) + ", URI: " + server.uri());
 * **Postman or Insomnia:** Test `HTTP requests` and `responses`.
 * **Wireshark:** `Analyze network traffic` for `debugging`.
 * **Fritzing:** `Design` and `simulate` circuits with `ESP8266`.
-- [CLICK_ME_TO_Download_Fritzing_for_free](https://goaibox.com/a-sl/7JkXFsRk67)
+<!-- [CLICK_ME_TO_Download_Fritzing_for_free](https://goaibox.com/a-sl/7JkXFsRk67) -->
 
 ## 12. Practice, Practice, Practice
 Consistency is key. Build multiple projects with increasing complexity to solidify your understanding.
 
-## 13. LICENSE 
+# License
 
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
