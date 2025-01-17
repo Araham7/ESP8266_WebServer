@@ -11,7 +11,8 @@ ESP8266WebServer server(80);
 
 // (1). Middleware-like function to log request_details("HTTP_method" and  "path"):
 void logRequest(const String& method, const String& path) {
-  Serial.println("Request: " + method + " " + path);
+  IPAddress clientIP = server.client().remoteIP();  // Get the client's IP address
+  Serial.println("Request from IP: " + clientIP.toString() + " Method: " + method + " Path: " + path);
 }
 
 // (2). Function to handle the root URL ("/"):
